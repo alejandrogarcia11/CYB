@@ -1,0 +1,22 @@
+
+[dataset_paths]
+permission_file = "data/permisions.names.txt"
+api_file = "data/api_call.names.txt"
+features_csv = "data/dataset-features-categories.csv"
+drebin_csv = "data/drebin-215-dataset-5560malware-9476-benign.csv"
+
+[train_test_split]
+test_size = 0.2
+
+[knn]
+model1_path = "models/knn_manifest.pkl"
+model2_path = "models/knn_manifest_api.pkl"
+
+[dt]
+model1_path = "models/dt_manifest.pkl"
+model2_path = "models/dt_manifest_api.pkl"
+
+[androguard_paths]
+apk_path = "data/apk-samples"
+model1_path = "models/model1.pkl"
+model2_path = "models/model2.pkl"
